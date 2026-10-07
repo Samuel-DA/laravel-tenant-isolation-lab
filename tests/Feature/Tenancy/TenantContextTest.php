@@ -5,21 +5,11 @@ namespace Tests\Feature\Tenancy;
 use App\Models\Tenant;
 use App\Tenancy\TenantContext;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class TenantContextTest extends TestCase
 {
     use RefreshDatabase;
-    /**
-     * A basic feature test example.
-     */
-    public function test_example(): void
-    {
-        $response = $this->get('/');
-
-        $response->assertStatus(200);
-    }
 
 
     public function test_it_fails_when_tenant_context_is_missing(): void

@@ -128,7 +128,7 @@ php artisan test
 ## Verified Test Result
 
 ```text
-Tests: 30 passed (53 assertions)
+Tests: 24 passed (47 assertions)
 ```
 
 ## Demonstration Request

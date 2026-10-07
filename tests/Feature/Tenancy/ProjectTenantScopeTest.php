@@ -6,21 +6,12 @@ use App\Models\Project;
 use App\Models\Tenant;
 use App\Tenancy\TenantContext;
 use Illuminate\Foundation\Testing\RefreshDatabase;
-use Illuminate\Foundation\Testing\WithFaker;
 use Tests\TestCase;
 
 class ProjectTenantScopeTest extends TestCase
 {
     use RefreshDatabase;
-    /**
-     * A basic feature test example.
-     */
-    public function test_example(): void
-    {
-        $response = $this->get('/');
 
-        $response->assertStatus(200);
-    }
 
     public function test_projects_are_limited_to_the_active_tenant(): void
     {
