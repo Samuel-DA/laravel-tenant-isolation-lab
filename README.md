@@ -1,4 +1,5 @@
 # Laravel Tenant Isolation Lab
+[![Tests](https://github.com/Samuel-DA/laravel-tenant-isolation-lab/actions/workflows/tests.yml/badge.svg)](https://github.com/Samuel-DA/laravel-tenant-isolation-lab/actions/workflows/tests.yml)
 
 A practical Laravel 13 demonstration of defence-in-depth tenant isolation for shared-database SaaS applications.
 
